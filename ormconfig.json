@@ -1,0 +1,24 @@
+{
+   "type": "postgres",
+   "host": "motty.db.elephantsql.com",
+   "port": 5432,
+   "username": "lpqtzujy",
+   "password": "wt3tlGn_-981-DINiKwMDXIYi8ojWNJw",
+   "database": "lpqtzujy",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/*"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
